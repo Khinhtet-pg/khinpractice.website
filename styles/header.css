@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    height: 104px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: -10px;
+    background-color: white;
+    opacity: .9;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    padding:0 30px;   
+}
+
+.left-section{
+    flex: 1;
+}
+
+.left-section img{
+    height: 40px;
+}
+
+.right-section{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0;  
+}
+
+.right-section a{
+    padding-left: 24px;
+}
+

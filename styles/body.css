@@ -1,0 +1,106 @@
+.main-container{
+    padding: 20px 30px 10px 30px;
+}
+.container{
+   display:flex;
+   margin-bottom: 100px;
+}
+
+.section-one{
+    flex:1;
+    text-align: flex-start;
+}
+
+.info{
+    width: 440px;
+}
+
+.gradient-text{
+    font-size: 80px;
+    font-weight: 700;
+    color: blueviolet;
+    margin-bottom: -10px;
+}
+
+.description{
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    margin: 35px 0;
+    line-height: 1.8;
+}
+
+.input-one,.input-two{
+    background-color: #F5F5F5;
+    width: 50%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    border-style: none;
+}
+
+.login{
+    padding: 20px 0;
+}
+
+.login button{
+   color: white;
+   background-color: rgb(77, 77, 255);
+   padding: 12px 24px;
+   border-style: none;
+   border-radius: 24px;
+   font-weight: bold;
+   font-size: 16px;
+   margin-right: 18px;
+}
+.login a{
+    text-decoration: underline;
+    font-size: 12px;
+    color: rgb(77, 77, 255);
+    font-weight: 600;
+}
+
+.signedin{
+    padding: 12px 0;
+}
+
+.app-ads{
+    padding: 12px 0;
+
+}
+.app-ads img{
+    margin-right: 8px;
+}
+
+.microsoft-icon{
+    height: 40px;
+    border-radius: 6px;
+}
+
+
+.section-two{
+    flex:1;
+    text-align: right; 
+}
+
+
+.section-two img{
+    width: 100%;
+}
+
+@media (max-width:1023px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-one{
+        text-align: center;
+    }
+    .gradient-text{
+        font-size: 52px;
+    }
+    .section-two img{
+        width: 440px; 
+    }
+
+}
+

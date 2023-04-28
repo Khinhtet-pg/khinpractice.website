@@ -1,0 +1,50 @@
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 12px;
+    font-size: 12px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+.meta{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.first{
+    font-weight: 800;
+    margin-right: 2px;
+}
+
+.second{
+    padding-right: 40px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links a{
+    padding: 0 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.links img{
+    height: 50px;
+}
+
+@media ((max-width:1023px)) {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
